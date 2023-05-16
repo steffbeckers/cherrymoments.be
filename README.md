@@ -1,6 +1,6 @@
 # cherrymoments.be
 
-Cherry Moments website
+Daisy's Cherry Moments website.
 
 ## Sitemap
 
