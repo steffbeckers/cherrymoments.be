@@ -16,7 +16,7 @@ Daisy's Cherry Moments website.
 Make sure to install the dependencies:
 
 ```bash
-yarn install
+yarn
 ```
 
 ## Development Server
@@ -24,7 +24,7 @@ yarn install
 Start the development server on `http://localhost:3000`
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ## Production
@@ -32,11 +32,11 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+yarn build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn preview
 ```
