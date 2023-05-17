@@ -4,19 +4,10 @@
   </div>
 </template>
 
-<style>
-html, body, #__nuxt, .wrapper {
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-}
-
-body {
-    font-family: Helvetica, Arial, sans-serif;
-}
-
+<style scoped>
 .wrapper {
+    height: 100%;
+    width: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;

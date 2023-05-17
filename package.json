@@ -8,8 +8,12 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "dependencies": {
+    "@nuxtjs/google-fonts": "^3.0.0"
+  },
   "devDependencies": {
     "@types/node": "^18",
-    "nuxt": "^3.5.0"
+    "nuxt": "^3.5.0",
+    "sass": "^1.62.1"
   }
 }
