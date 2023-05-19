@@ -13,6 +13,7 @@ export default defineNuxtConfig({
         prefetch: true,
       },
     ],
+    "@nuxtjs/tailwindcss",
   ],
   app: {
     head: {
