@@ -1,6 +1,7 @@
 <template>
   <div class="wrapper">
     <h1>Cherry Moments</h1>
+    <h3>Moments to cherish</h3>
   </div>
 </template>
 
