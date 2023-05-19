@@ -1,17 +1,6 @@
 <template>
-  <div class="wrapper">
-    <h1>Cherry Moments</h1>
+  <div class="grid place-content-center w-auto h-full">
+    <h1 class="text-3xl">Cherry Moments</h1>
     <h3>Moments to cherish</h3>
   </div>
 </template>
-
-<style scoped>
-.wrapper {
-  height: 100%;
-  width: 100%;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-</style>
