@@ -272,7 +272,7 @@
       content: "";
       background-color: $theme-primary-color;
       @include linear-gradient-bg(
-        left,
+        to right,
         $theme-primary-color-s2,
         $theme-primary-color
       );

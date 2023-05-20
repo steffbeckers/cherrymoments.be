@@ -64,7 +64,11 @@
     -ms-transform-origin: 60px 60px;
     -o-transform-origin: 60px 60px;
     transform-origin: 60px 60px;
-    -webkit-mask-image: -webkit-linear-gradient(top, #000000, rgba(0, 0, 0, 0));
+    -webkit-mask-image: -webkit-linear-gradient(
+      to bottom,
+      #000000,
+      rgba(0, 0, 0, 0)
+    );
     -webkit-animation: rotate 1.2s infinite linear;
     -moz-animation: rotate 1.2s infinite linear;
     -o-animation: rotate 1.2s infinite linear;
