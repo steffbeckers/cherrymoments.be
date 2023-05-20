@@ -5,4 +5,5 @@ export default defineNuxtConfig({
       title: "Cherry Moments",
     },
   },
+  css: ["@/assets/sass/style.scss"],
 });
