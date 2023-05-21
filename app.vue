@@ -29,10 +29,24 @@
                 >
                   <button class="menu-close"><i class="ti-close"></i></button>
                   <ul class="nav navbar-nav mb-2 mb-lg-0">
-                    <li><NuxtLink to="/">Home</NuxtLink></li>
-                    <li><NuxtLink to="/over-mij">Over mij</NuxtLink></li>
-                    <li><NuxtLink to="/realisaties">Realisaties</NuxtLink></li>
-                    <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+                    <li>
+                      <NuxtLink to="/" active-class="active">Home</NuxtLink>
+                    </li>
+                    <li>
+                      <NuxtLink to="/over-mij" active-class="active"
+                        >Over mij</NuxtLink
+                      >
+                    </li>
+                    <li>
+                      <NuxtLink to="/realisaties" active-class="active"
+                        >Realisaties</NuxtLink
+                      >
+                    </li>
+                    <li>
+                      <NuxtLink to="/contact" active-class="active"
+                        >Contact</NuxtLink
+                      >
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -66,10 +80,7 @@
             <div class="link-widget">
               <ul>
                 <li>
-                  <a href="#"><i class="ti-pinterest"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="ti-linkedin"></i></a>
+                  <a href="#"><i class="ti-instagram"></i></a>
                 </li>
                 <li>
                   <a href="#"><i class="ti-facebook"></i></a>
@@ -79,10 +90,10 @@
           </div>
           <div class="col-12">
             <div class="copyright">
-              <!-- TODO: Display current year -->
               <p>
-                © Copyright 2023 | <NuxtLink to="/">Cherry Moments</NuxtLink> |
-                Alle rechten voorbehouden.
+                © Copyright {{ year }} |
+                <NuxtLink to="/">Cherry Moments</NuxtLink> | Alle rechten
+                voorbehouden.
               </p>
             </div>
           </div>
@@ -100,3 +111,7 @@
   }
 }
 </style>
+
+<script setup>
+const year = new Date().getFullYear();
+</script>
