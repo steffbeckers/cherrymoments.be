@@ -17,7 +17,7 @@
               </div>
               <div class="col-lg-3 col-md-6 col-6">
                 <div class="navbar-header">
-                  <a class="navbar-brand" href="index.html"
+                  <a class="navbar-brand" href="/"
                     ><img src="~/assets/images/logo.svg" alt="Logo"
                   /></a>
                 </div>

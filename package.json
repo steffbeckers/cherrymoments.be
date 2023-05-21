@@ -8,6 +8,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0"
+  },
   "devDependencies": {
     "@types/node": "^18",
     "nuxt": "^3.5.0",

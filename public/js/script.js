@@ -1097,7 +1097,7 @@ wpo-service-active SLIDER
             $("#success").slideDown("slow");
             setTimeout(function () {
               $("#success").slideUp("slow");
-            }, 5000);
+            }, 10000);
             form.reset();
           },
           error: function () {
@@ -1105,7 +1105,7 @@ wpo-service-active SLIDER
             $("#error").slideDown("slow");
             setTimeout(function () {
               $("#error").slideUp("slow");
-            }, 5000);
+            }, 10000);
           },
         });
 

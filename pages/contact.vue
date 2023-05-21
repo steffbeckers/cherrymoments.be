@@ -135,18 +135,18 @@
                     <i class="ti-reload"></i>
                   </div>
                 </div>
-                <div class="clearfix error-handling-messages">
-                  <div id="success">
-                    Bedankt voor je bericht! Ik neem zo snel mogelijk contact
-                    met je op.
-                  </div>
-                  <div id="error">
-                    Er ging iets mis tijdens het verzenden van het bericht.
-                    Probeer het later opnieuw of stuur een e-mail naar
-                    <a href="mailto:info@cherrymoments.be"
-                      >info@cherrymoments.be</a
-                    >.
-                  </div>
+              </div>
+              <div class="error-handling-messages">
+                <div id="success">
+                  Bedankt voor je bericht! Ik neem zo snel mogelijk contact met
+                  je op.
+                </div>
+                <div id="error">
+                  Er ging iets mis tijdens het verzenden van het bericht.
+                  Probeer het later opnieuw of stuur een e-mail naar
+                  <a href="mailto:info@cherrymoments.be"
+                    >info@cherrymoments.be</a
+                  >.
                 </div>
               </div>
             </form>
