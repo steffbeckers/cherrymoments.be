@@ -79,23 +79,14 @@
               id="contact-form-main"
             >
               <div class="d-flex flex-column gap-4">
-                <div class="row gap-4 gap-md-0">
-                  <div class="form-group col-md-6">
+                <div class="row">
+                  <div class="form-group">
                     <input
                       type="text"
                       class="form-control"
                       name="name"
                       id="name"
                       placeholder="Naam*"
-                    />
-                  </div>
-                  <div class="form-group col-md-6">
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="address"
-                      id="address"
-                      placeholder="Adres (stad/gemeente)"
                     />
                   </div>
                 </div>

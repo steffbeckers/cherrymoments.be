@@ -8,7 +8,6 @@ export default defineEventHandler(async (event) => {
   const body = await readBody(event);
   const data = qs.parse(body) as {
     name: string;
-    address?: string;
     email: string;
     phoneNumber: string;
     message: string;
@@ -18,11 +17,10 @@ export default defineEventHandler(async (event) => {
     from: "contact@cherrymoments.be",
     to: "steff@steffbeckers.eu",
     replyTo: data.email,
-    subject: "Contactformulier inzending op website",
+    subject: "Contactformulier inzending via website",
     html: `
       <div>
         <div><strong>Naam:</strong> ${data.name}</div>
-        <div><strong>Adres:</strong> ${data.address}</div>
         <div><strong>E-mailadres:</strong> ${data.email}</div>
         <div><strong>Telefoonnummer:</strong> ${data.phoneNumber}</div>
         <div><strong>Bericht:</strong></div>
