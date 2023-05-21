@@ -1076,51 +1076,28 @@ wpo-service-active SLIDER
   if ($("#contact-form-main").length) {
     $("#contact-form-main").validate({
       rules: {
-        name: {
-          required: true,
-          minlength: 2,
-        },
-
+        name: "required",
         email: "required",
-
-        phone: "required",
-
-        adress: "required",
-
-        guest: "required",
-
-        meal: "required",
-
-        date: "required",
-
-        what: "required",
-
-        service: "required",
+        phoneNumber: "required",
+        message: "required",
       },
-
       messages: {
-        name: "Please enter your name",
-        email: "Please enter your email address",
-        phone: "Please enter your phone number",
-        adress: "Please enter your adress",
-        guest: "Please select your guest Number",
-        meal: "Please select your Meal Name",
-        date: "Please select your Date",
-        what: "Please select your Reason",
-        service: "Please select your Service",
+        name: "Naam is verplicht",
+        email: "E-mailadres is verplicht",
+        phoneNumber: "Telefoonnummer is verplicht",
+        message: "Bericht is verplicht",
       },
-
       submitHandler: function (form) {
         $.ajax({
           type: "POST",
-          url: "mail-contact.php",
+          url: "/api/contact/form-submit",
           data: $(form).serialize(),
           success: function () {
             $("#loader").hide();
             $("#success").slideDown("slow");
             setTimeout(function () {
               $("#success").slideUp("slow");
-            }, 3000);
+            }, 5000);
             form.reset();
           },
           error: function () {
@@ -1128,9 +1105,10 @@ wpo-service-active SLIDER
             $("#error").slideDown("slow");
             setTimeout(function () {
               $("#error").slideUp("slow");
-            }, 3000);
+            }, 5000);
           },
         });
+
         return false; // required to block normal submit since you used ajax
       },
     });

@@ -105,22 +105,22 @@
     }
   }
 
-  form > div {
-    width: calc(50% - 30px);
-    float: left;
-    margin: 0 15px 25px;
+  // form > div {
+  //   width: calc(50% - 30px);
+  //   float: left;
+  //   margin: 0 15px 25px;
 
-    @include media-query(600px) {
-      width: calc(100% - 25px);
-      float: none;
-    }
-  }
+  //   @include media-query(600px) {
+  //     width: calc(100% - 25px);
+  //     float: none;
+  //   }
+  // }
 
-  form .fullwidth {
-    width: calc(100% - 25px);
-    float: none;
-    clear: both;
-  }
+  // form .fullwidth {
+  //   width: calc(100% - 25px);
+  //   float: none;
+  //   clear: both;
+  // }
 
   .office-info {
     padding-bottom: 100px;

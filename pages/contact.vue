@@ -70,7 +70,7 @@
           </div>
           <div class="wpo-contact-title">
             <h2>Heb je vragen?</h2>
-            <p>Aarzel dan niet om contact met me op te nemen!</p>
+            <p>Neem snel contact met me op!</p>
           </div>
           <div class="wpo-contact-form-area">
             <form
@@ -78,71 +78,75 @@
               class="contact-validation-active"
               id="contact-form-main"
             >
-              <div>
-                <input
-                  type="text"
-                  class="form-control"
-                  name="name"
-                  id="name"
-                  placeholder="Naam*"
-                  required
-                />
-              </div>
-              <div>
-                <input
-                  type="text"
-                  class="form-control"
-                  name="address"
-                  id="address"
-                  placeholder="Adres (stad/gemeente)"
-                />
-              </div>
-              <div>
-                <input
-                  type="email"
-                  class="form-control"
-                  name="email"
-                  id="email"
-                  placeholder="E-mailadres*"
-                  required
-                />
-              </div>
-              <div>
-                <input
-                  type="text"
-                  class="form-control"
-                  name="phonenumber"
-                  id="phonenumber"
-                  placeholder="Telefoonnummer*"
-                  required
-                />
-              </div>
-              <div class="fullwidth">
-                <textarea
-                  class="form-control"
-                  name="message"
-                  id="message"
-                  placeholder="Bericht*"
-                  required
-                ></textarea>
-              </div>
-              <div class="submit-area">
-                <button type="submit" class="theme-btn-s4">Verstuur</button>
-                <div id="loader">
-                  <i class="ti-reload"></i>
+              <div class="d-flex flex-column gap-4">
+                <div class="row gap-4 gap-md-0">
+                  <div class="form-group col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="name"
+                      id="name"
+                      placeholder="Naam*"
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="address"
+                      id="address"
+                      placeholder="Adres (stad/gemeente)"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div class="clearfix error-handling-messages">
-                <div id="success">
-                  Bedankt voor je bericht! Ik neem zo snel mogelijk contact met
-                  je op.
+                <div class="row gap-4 gap-md-0">
+                  <div class="form-group col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="E-mailadres*"
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="phoneNumber"
+                      id="phoneNumber"
+                      placeholder="Telefoonnummer*"
+                    />
+                  </div>
                 </div>
-                <div id="error">
-                  Er ging iets mis tijdens het verzenden van het bericht.
-                  Probeer het later opnieuw of stuur een e-mail naar
-                  <a href="mailto:info@cherrymoments.be"
-                    >info@cherrymoments.be</a
-                  >.
+                <div class="row">
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      id="message"
+                      placeholder="Bericht*"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="submit-area">
+                  <button type="submit" class="theme-btn-s4">Verstuur</button>
+                  <div id="loader">
+                    <i class="ti-reload"></i>
+                  </div>
+                </div>
+                <div class="clearfix error-handling-messages">
+                  <div id="success">
+                    Bedankt voor je bericht! Ik neem zo snel mogelijk contact
+                    met je op.
+                  </div>
+                  <div id="error">
+                    Er ging iets mis tijdens het verzenden van het bericht.
+                    Probeer het later opnieuw of stuur een e-mail naar
+                    <a href="mailto:info@cherrymoments.be"
+                      >info@cherrymoments.be</a
+                    >.
+                  </div>
                 </div>
               </div>
             </form>
