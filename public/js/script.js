@@ -1090,7 +1090,7 @@ wpo-service-active SLIDER
       submitHandler: function (form) {
         $.ajax({
           type: "POST",
-          url: "/api/contact/form-submit",
+          url: window.origin + "/api/contact/form-submit",
           data: $(form).serialize(),
           success: function () {
             $("#loader").hide();
