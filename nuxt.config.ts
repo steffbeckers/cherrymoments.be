@@ -32,9 +32,4 @@ export default defineNuxtConfig({
     "~/assets/css/jquery-ui.css",
     "~/assets/sass/style.scss",
   ],
-  runtimeConfig: {
-    app: {
-      SENDGRID_API_KEY: process.env.SENDGRID_API_KEY,
-    },
-  },
 });

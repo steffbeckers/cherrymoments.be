@@ -1,10 +1,10 @@
-// import sgMail from "@sendgrid/mail";
+import sgMail from "@sendgrid/mail";
 
 export default defineEventHandler(async (event) => {
   const body = await readBody(event);
+  const config = useRuntimeConfig();
 
-  // const config = useRuntimeConfig();
-  // sgMail.setApiKey(config.app.SENDGRID_API_KEY);
+  sgMail.setApiKey(config.server.sendgrid.apiKey);
 
   // await sgMail.send({
   //   from: "contact@cherrymoments.be",
@@ -22,5 +22,5 @@ export default defineEventHandler(async (event) => {
   //   `,
   // });
 
-  return true;
+  return config.server.sendgrid.testVar;
 });
