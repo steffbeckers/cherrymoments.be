@@ -1088,10 +1088,19 @@ wpo-service-active SLIDER
         message: "Bericht is verplicht",
       },
       submitHandler: function (form) {
+        const data = $(form)
+          .serializeArray()
+          .reduce((data, { name, value }) => {
+            data[name] = value;
+            return data;
+          }, {});
+
         $.ajax({
           type: "POST",
-          url: window.origin + "/api/contact/form-submit",
-          data: $(form).serialize(),
+          url: "/api/contact/form-submit",
+          data: JSON.stringify(data),
+          contentType: "application/json; charset=utf-8",
+          dataType: "json",
           success: function () {
             $("#loader").hide();
             $("#success").slideDown("slow");
