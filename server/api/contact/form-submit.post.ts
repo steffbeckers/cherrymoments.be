@@ -8,7 +8,7 @@ export default defineEventHandler(async (event) => {
 
   await sgMail.send({
     from: "contact@cherrymoments.be",
-    to: "steff@steffbeckers.eu",
+    to: "daisy.delcour@cherrymoments.be",
     replyTo: body.email,
     subject: "Contactformulier inzending via website",
     html: `
