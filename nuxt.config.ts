@@ -32,4 +32,11 @@ export default defineNuxtConfig({
     "~/assets/css/jquery-ui.css",
     "~/assets/sass/style.scss",
   ],
+  runtimeConfig: {
+    server: {
+      sendgrid: {
+        apiKey: "",
+      },
+    },
+  },
 });
