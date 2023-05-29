@@ -32,6 +32,13 @@ export default defineNuxtConfig({
     "~/assets/css/jquery-ui.css",
     "~/assets/sass/style.scss",
   ],
+  devtools: {
+    enabled: true,
+  },
+  image: {
+    dir: "assets/images",
+  },
+  modules: ["@nuxt/image-edge"],
   runtimeConfig: {
     server: {
       sendgrid: {
