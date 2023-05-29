@@ -6,10 +6,6 @@
           <div class="col col-xs-12">
             <div class="wpo-breadcumb-wrap">
               <h2>Realisaties</h2>
-              <ol class="wpo-breadcumb-wrap">
-                <li><NuxtLink to="/">Home</NuxtLink></li>
-                <li>Realisaties</li>
-              </ol>
             </div>
           </div>
         </div>

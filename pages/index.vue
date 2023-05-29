@@ -5,7 +5,8 @@
         <div class="row">
           <div class="col col-xs-12">
             <div class="wpo-breadcumb-wrap">
-              <h2>Home</h2>
+              <h2>Cherry Moments</h2>
+              <p>Moments to cherish</p>
             </div>
           </div>
         </div>
