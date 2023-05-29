@@ -35,6 +35,9 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
+  image: {
+    dir: "assets/images",
+  },
   modules: ["@nuxt/image-edge"],
   runtimeConfig: {
     server: {
