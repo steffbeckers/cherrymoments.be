@@ -180,6 +180,14 @@
         p {
           margin-bottom: 0;
         }
+
+        a {
+          color: $text-color;
+
+          &:hover {
+            color: $theme-primary-color;
+          }
+        }
       }
     }
   }
