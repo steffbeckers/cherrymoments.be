@@ -32,8 +32,8 @@
                     <NuxtLink to="/" active-class="active">Home</NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink to="/over-mij" active-class="active"
-                      >Over mij</NuxtLink
+                    <NuxtLink to="/over-mezelf" active-class="active"
+                      >Over mezelf</NuxtLink
                     >
                   </li>
                   <li>

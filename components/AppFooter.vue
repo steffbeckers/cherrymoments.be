@@ -13,7 +13,7 @@
           <div class="footer-link">
             <ul>
               <li><NuxtLink to="/">Home</NuxtLink></li>
-              <li><NuxtLink to="/over-mij">Over mij</NuxtLink></li>
+              <li><NuxtLink to="/over-mezelf">Over mezelf</NuxtLink></li>
               <li><NuxtLink to="/realisaties">Realisaties</NuxtLink></li>
               <li><NuxtLink to="/contact">Contact</NuxtLink></li>
             </ul>
