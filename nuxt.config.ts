@@ -32,6 +32,9 @@ export default defineNuxtConfig({
     "~/assets/css/jquery-ui.css",
     "~/assets/sass/style.scss",
   ],
+  devtools: {
+    enabled: true,
+  },
   runtimeConfig: {
     server: {
       sendgrid: {
