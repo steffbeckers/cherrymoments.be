@@ -56,7 +56,7 @@
       </div>
     </header>
     <slot />
-    <div class="wpo-site-footer text-center">
+    <footer class="wpo-site-footer text-center">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -99,7 +99,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   </div>
 </template>
 
