@@ -24,7 +24,9 @@
               <div class="team-info-text">
                 <h2>Daisy Delcour</h2>
                 <ul>
-                  <li>Ervaring:<span>3 jaar</span></li>
+                  <li>Job:<span>Wedding planner / Campaign manager</span></li>
+                  <!-- TODO: Count of years (dynamically?) -->
+                  <li>Ervaring:<span>x jaar</span></li>
                   <li>Hobby's:<span>Bakken, fitness, naaien, cat mom</span></li>
                   <!-- TODO: Links -->
                   <li>Adres:<span>3945 Ham</span></li>
@@ -72,15 +74,6 @@
                   <li>Very popular during the Renaissance.</li>
                   <li>
                     Many desktop publishing packages and web page editors now.
-                  </li>
-                </ul>
-              </div>
-              <div class="language-area ex-wiget">
-                <h2>Talen</h2>
-                <ul>
-                  <li>
-                    Nederlands (moedertaal), Engels (vloeiend), Duits (basis),
-                    Frans (basis).
                   </li>
                 </ul>
               </div>
