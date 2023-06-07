@@ -23,9 +23,11 @@
           <div class="link-widget">
             <ul>
               <li>
+                <!-- TODO: Link -->
                 <a href="#"><i class="ti-instagram"></i></a>
               </li>
               <li>
+                <!-- TODO: Link -->
                 <a href="#"><i class="ti-facebook"></i></a>
               </li>
             </ul>

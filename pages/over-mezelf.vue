@@ -24,10 +24,15 @@
               <div class="team-info-text">
                 <h2>Daisy Delcour</h2>
                 <ul>
-                  <li>Job:<span>Wedding planner / Campaign manager</span></li>
+                  <li>
+                    Job:<span
+                      >Campaign manager by day, wedding planner by night</span
+                    >
+                  </li>
                   <!-- TODO: Count of years (dynamically?) -->
                   <li>Ervaring:<span>x jaar</span></li>
                   <li>Hobby's:<span>Bakken, fitness, naaien, cat mom</span></li>
+                  <li>Bijnaam:<span>Didi</span></li>
                   <!-- TODO: Links -->
                   <li>Adres:<span>3945 Ham</span></li>
                   <li>
