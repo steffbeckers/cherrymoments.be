@@ -9,8 +9,7 @@ Daisy's Cherry Moments website.
   - Beter leren kennen? => Over mij
   - Partners
 - Over mij
-  - Persoonlijke ervaring
-    - Wie ik ben en wat ik doe
+  - Wie ik ben en wat ik doe
   - Jobs
     - Campaign manager by day
     - Wedding planner by night
