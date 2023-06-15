@@ -31,7 +31,11 @@
                   </li>
                   <!-- TODO: Count of years (dynamically?) -->
                   <li>Ervaring:<span>x jaar</span></li>
-                  <li>Hobby's:<span>Bakken, fitness, naaien, cat mom</span></li>
+                  <li>
+                    Hobby's:<span
+                      >Turnles, naaien, fitclub, bakken, wandelen, cat mom</span
+                    >
+                  </li>
                   <li>Bijnaam:<span>Didi</span></li>
                   <!-- TODO: Links -->
                   <li>Adres:<span>3945 Ham</span></li>

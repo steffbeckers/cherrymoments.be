@@ -6,10 +6,33 @@ Daisy's Cherry Moments website.
 
 - Home
   - Inleidend tekstje over wat ik doe
+  - Beter leren kennen? => Over mij
+  - Partners
 - Over mij
-  - Wie ik ben en wat ik doe
+  - Persoonlijke ervaring
+    - Wie ik ben en wat ik doe
+  - Jobs
+    - Campaign manager by day
+    - Wedding planner by night
+  - Opleidingen
+    - Wedding planner
+    - Marketeer
+    - Grafisch ontwerper
+  - Hobby's
+    - Turnles geven
+    - Naaien
+    - Fitclub
+    - Bakken
+    - Wandelen
+    - Cat mom
 - Realisaties
+  - Doopfeest Yinthe
+  - Trouw Kim en Koen?
+  - Trouw Anja en Ronny?
 - Contact
+  - Adres (Ham), E-mailadres, Telefoonnummer
+  - Contactformulier
+  - Map (Ham)
 
 ## Setup
 
