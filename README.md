@@ -4,10 +4,19 @@ Daisy's Cherry Moments website.
 
 ## Sitemap
 
+- One-pager
+
+  - Inleidend tekstje over wat ik doe als wedding planner, wie Cherry moments
+  - Wie ik ben en wat ik doe CTA => contact (index-2 About us)
+  - Review
+  - Realisaties
+  - Quote
+  - Pricing?
+  - Contact
+
 - Home
   - Inleidend tekstje over wat ik doe
   - Beter leren kennen? => Over mij
-  - Partners
 - Over mij
   - Wie ik ben en wat ik doe
   - Jobs
@@ -20,7 +29,7 @@ Daisy's Cherry Moments website.
   - Hobby's
     - Turnles geven
     - Naaien
-    - Fitclub
+    - Fitdance
     - Bakken
     - Wandelen
     - Cat mom
