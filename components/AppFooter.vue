@@ -12,10 +12,10 @@
         <div class="col-12">
           <div class="footer-link">
             <ul>
-              <li><NuxtLink to="/">Home</NuxtLink></li>
-              <li><NuxtLink to="/over-mezelf">Over mezelf</NuxtLink></li>
-              <li><NuxtLink to="/realisaties">Realisaties</NuxtLink></li>
-              <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#over-mezelf">Over mezelf</a></li>
+              <li><a href="#realisaties">Realisaties</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>

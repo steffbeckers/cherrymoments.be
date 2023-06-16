@@ -29,22 +29,16 @@
                 <button class="menu-close"><i class="ti-close"></i></button>
                 <ul class="nav navbar-nav mb-2 mb-lg-0">
                   <li>
-                    <NuxtLink to="/" active-class="active">Home</NuxtLink>
+                    <a href="#home">Home</a>
                   </li>
                   <li>
-                    <NuxtLink to="/over-mezelf" active-class="active"
-                      >Over mezelf</NuxtLink
-                    >
+                    <a href="#over-mezelf">Over mezelf</a>
                   </li>
                   <li>
-                    <NuxtLink to="/realisaties" active-class="active"
-                      >Realisaties</NuxtLink
-                    >
+                    <a href="#realisaties">Realisaties</a>
                   </li>
                   <li>
-                    <NuxtLink to="/contact" active-class="active"
-                      >Contact</NuxtLink
-                    >
+                    <a href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
