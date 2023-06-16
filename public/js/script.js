@@ -338,9 +338,10 @@
       $(".preloader")
         .delay(100)
         .fadeOut(500, function () {
-          //active wow
           wow.init();
         });
+    } else {
+      wow.init();
     }
   }
 
