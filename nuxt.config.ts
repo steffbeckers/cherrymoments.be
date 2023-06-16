@@ -35,10 +35,7 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
-  image: {
-    dir: "assets/images",
-  },
-  modules: ["@nuxt/image-edge"],
+  modules: ["nuxt-gtag"],
   runtimeConfig: {
     server: {
       sendgrid: {

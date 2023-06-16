@@ -13,9 +13,9 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "^0.5.5",
-    "@nuxt/image-edge": "^1.0.0-28088649.74a91bd",
     "@types/node": "^18",
     "nuxt": "^3.5.1",
+    "nuxt-gtag": "^0.5.7",
     "prettier": "^2.8.8",
     "sass": "^1.62.1"
   }
