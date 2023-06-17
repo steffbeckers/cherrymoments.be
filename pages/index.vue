@@ -100,12 +100,6 @@
                 <div class="testimonial-img">
                   <img src="assets/images/testimonial/img-1.jpg" alt="" />
                 </div>
-                <div class="testimonial-img">
-                  <img src="assets/images/testimonial/img-2.jpg" alt="" />
-                </div>
-                <div class="testimonial-img">
-                  <img src="assets/images/testimonial/img-3.jpg" alt="" />
-                </div>
               </div>
             </div>
             <div
@@ -125,40 +119,8 @@
                         vel duiscoue necrd.
                       </p>
                       <div class="wpo-testimonial-text-btm">
-                        <h3>Marlin & Williamson</h3>
-                        <span>Wedding- 23.05.2022</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="wpo-testimonial-item">
-                    <div class="wpo-testimonial-text">
-                      <i class="fi flaticon-quotation"></i>
-                      <p>
-                        Varius aenean fringilla consectetur adipiscing felis,
-                        lectus. Id eros, porta quam quis proin non vulputate
-                        lacinia imperdiet. Mus ut amet tortor iEros, sed at
-                        semper sed in tempor ultrices sed. Id sem nulla quisque
-                        vel duiscoue necrd.
-                      </p>
-                      <div class="wpo-testimonial-text-btm">
-                        <h3>Rihanna & William</h3>
-                        <span>Wedding- 08.12.2022</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="wpo-testimonial-item">
-                    <div class="wpo-testimonial-text">
-                      <i class="fi flaticon-quotation"></i>
-                      <p>
-                        Varius aenean fringilla consectetur adipiscing felis,
-                        lectus. Id eros, porta quam quis proin non vulputate
-                        lacinia imperdiet. Mus ut amet tortor iEros, sed at
-                        semper sed in tempor ultrices sed. Id sem nulla quisque
-                        vel duiscoue necrd.
-                      </p>
-                      <div class="wpo-testimonial-text-btm">
-                        <h3>Sarah & Daniel</h3>
-                        <span>Wedding- 12.08.2022</span>
+                        <h3>Anja & Ronny</h3>
+                        <span>Trouw - 29/11/2019</span>
                       </div>
                     </div>
                   </div>
@@ -211,7 +173,8 @@
     <section class="wpo-banner-section">
       <h4>We Are Waiting for Celebrate Your Love</h4>
     </section>
-    <section id="contact" class="wpo-contact-pg-section section-padding">
+    <!-- Contact #1 -->
+    <!-- <section id="contact" class="wpo-contact-pg-section section-padding">
       <div class="container">
         <div class="row">
           <div class="col col-lg-10 offset-lg-1">
@@ -342,6 +305,104 @@
                   </div>
                 </div>
               </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section id="contact" class="wpo-contact-section-s2 section-padding">
+      <div class="contact-bg">
+        <img src="assets/images/contact/img-3.jpg" alt="" />
+      </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col col-xl-12 col-12">
+            <div
+              class="wpo-contact-section-wrapper wow fadeInLeftSlow"
+              data-wow-duration="1700ms"
+            >
+              <div class="wpo-contact-form-area">
+                <div class="wpo-section-title">
+                  <h4>Lets Meet</h4>
+                  <h2>Contact</h2>
+                </div>
+                <form
+                  method="post"
+                  class="contact-validation-active"
+                  id="contact-form-main"
+                >
+                  <div class="d-flex flex-column gap-4">
+                    <div class="row">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="name"
+                          id="name"
+                          placeholder="Naam*"
+                        />
+                      </div>
+                    </div>
+                    <div class="row gap-4 gap-md-0">
+                      <div class="form-group col-md-6">
+                        <input
+                          type="email"
+                          class="form-control"
+                          name="email"
+                          id="email"
+                          placeholder="E-mailadres*"
+                        />
+                      </div>
+                      <div class="form-group col-md-6">
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="phoneNumber"
+                          id="phoneNumber"
+                          placeholder="Telefoonnummer*"
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-group">
+                        <textarea
+                          class="form-control"
+                          name="message"
+                          id="message"
+                          placeholder="Bericht*"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="submit-area">
+                      <button type="submit" class="theme-btn-s4">
+                        Verstuur
+                      </button>
+                      <div id="loader">
+                        <i class="ti-reload"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="error-handling-messages">
+                    <div id="success">
+                      Bedankt voor je bericht! Ik neem zo snel mogelijk contact
+                      met je op.
+                    </div>
+                    <div id="error">
+                      Er ging iets mis tijdens het verzenden van het bericht.
+                      Probeer het later opnieuw of stuur een e-mail naar
+                      <a href="mailto:info@cherrymoments.be"
+                        >info@cherrymoments.be</a
+                      >.
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="vector-1">
+                <img src="assets/images/contact/1.png" alt="" />
+              </div>
+              <div class="vector-2">
+                <img src="assets/images/contact/2.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
